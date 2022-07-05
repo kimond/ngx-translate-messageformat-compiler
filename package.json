@@ -1,6 +1,6 @@
 {
-  "name": "ngx-translate-messageformat-compiler",
-  "version": "5.0.1",
+  "name": "@kimond/ngx-translate-messageformat-compiler",
+  "version": "5.1.0",
   "scripts": {
     "ng": "ng",
     "build": "ng build",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lephyrus/ngx-translate-messageformat-compiler.git"
+    "url": "git+https://github.com/kimond/ngx-translate-messageformat-compiler.git"
   },
   "keywords": [
     "angular",
@@ -32,6 +32,9 @@
     "url": "https://github.com/lephyrus/ngx-translate-messageformat-compiler/issues"
   },
   "homepage": "https://github.com/lephyrus/ngx-translate-messageformat-compiler#readme",
+  "publishConfig": {
+        "registry":"https://npm.pkg.github.com"
+  },
   "dependencies": {
     "tslib": "^2.3.1"
   },
